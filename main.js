@@ -1,5 +1,6 @@
 // Teachable Machine model URL
 const URL = "https://teachablemachine.withgoogle.com/models/7na39eFZO/";
+
 let model, webcam, labelContainer, maxPredictions;
 
 // Initialize the model
@@ -274,4 +275,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Initialize the model when the page loads
-window.addEventListener('load', initModel);//
+window.addEventListener('load', initModel);
