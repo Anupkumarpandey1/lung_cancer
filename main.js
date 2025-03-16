@@ -274,4 +274,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Initialize the model when the page loads
-window.addEventListener('load', initModel);
+window.addEventListener('load', initModel);//
